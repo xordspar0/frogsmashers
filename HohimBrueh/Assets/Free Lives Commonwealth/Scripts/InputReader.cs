@@ -234,7 +234,7 @@ namespace FreeLives
 
             inputState.leftTrigger = device.leftTrigger.ReadValue();
             inputState.rightTrigger = device.rightTrigger.ReadValue();
-            inputState.start = device.startButton.isPressed;
+            inputState.start = device.aButton.isPressed;
 
         }
 
